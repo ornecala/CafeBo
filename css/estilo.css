@@ -1,0 +1,280 @@
+* {
+  padding: 0px;
+  margin: 0px; }
+
+body {
+  overflow-x: hidden;
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: #ededed; }
+
+.navbar-brand {
+  margin-left: 5% !important; }
+  .navbar-brand img {
+    height: 70px;
+    width: 80px; }
+
+.nav {
+  list-style-type: none;
+  /* saco bullets */
+  padding: 0;
+  background-color: #092327;
+  width: 90%;
+  margin: auto;
+  /* para que quede centrado */
+  display: flex;
+  justify-content: flex-end; }
+
+.nav li a {
+  text-decoration: none;
+  /* saco el subrayado */
+  color: white;
+  padding: 20px;
+  display: block; }
+
+.nav li {
+  display: inline-block;
+  text-align: center; }
+
+.nav li a:hover {
+  /* el hover sirve para cuando tocamos en alguno de los items tenga color distinto */
+  background: orange; }
+
+.paddingT {
+  padding-top: 50px; }
+
+.paddingTB {
+  padding-top: 30px;
+  padding-bottom: 30px; }
+
+.paddingLR {
+  padding-left: 10px;
+  padding-right: 10px; }
+
+.centrar {
+  text-align: center; }
+
+.col-lg-12, .col-lg-6, .col-lg-4, .col-lg-3 {
+  /* poniendole cero hace que vaya hasta el borde de la pantalla */
+  padding-right: 0;
+  padding-left: 0; }
+
+.ico_foo {
+  transition: 1s; }
+
+.ico_foo:hover {
+  transform: translateY(-10px);
+  cursor: pointer; }
+
+footer img {
+  width: 80px;
+  height: 80px; }
+
+.footerBg {
+  position: absolute;
+  background: #C99A39;
+  height: auto;
+  width: 100vw;
+  font-family: "Open Sans";
+  padding-top: 40px;
+  color: #fff; }
+
+.footerContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center; }
+  .footerContent h3 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem; }
+  .footerContent p {
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 18px; }
+
+.redes {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .redes li {
+    margin: 0 10px; }
+  .redes a {
+    color: #4D370B; }
+    .redes a i {
+      font-size: 1.1rem;
+      transition: all 2s; }
+      .redes a i:hover {
+        color: #fff; }
+
+.footerBottom {
+  background: #8F6B23;
+  width: 100vw;
+  padding: 5px 0;
+  text-align: center; }
+  .footerBottom p {
+    font-size: 18px;
+    word-spacing: 2px;
+    text-transform: capitalize; }
+
+/* vista desktop */
+@media only screen and (min-width: 1024px) {
+  .navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end; }
+  /*map-get*/
+  .footerFlex {
+    display: flex;
+    justify-content: space-around; } }
+
+/* vista tablet */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end; }
+  .indexGaleria__img--ubicacion {
+    margin: 50px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly; }
+  .indexGaleria__img--size {
+    height: auto;
+    min-width: 300px !important;
+    margin: 20px auto; } }
+
+/* vista mobile */
+@media only screen and (min-width: 1px) and (max-width: 767px) {
+  p, span, li {
+    font-size: 18px; }
+  h1 {
+    font-size: 40px; }
+  h3 {
+    font-size: 32px; }
+  .indexGaleria__img--ubicacion {
+    margin: 50px auto; }
+  .indexGaleria__img--size {
+    height: auto;
+    min-width: 300px !important;
+    margin: 20px auto; } }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.formulario {
+  width: 400px;
+  background: #8F6B23;
+  padding: 30px;
+  margin: auto;
+  border-radius: 4px;
+  color: white; }
+  .formulario h4 {
+    font-size: 22px;
+    margin-botton: 20px; }
+  .formulario p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px; }
+  .formulario a {
+    color: white;
+    text-decoration: none; }
+    .formulario a:hover {
+      color: white;
+      text-decoration: underline; }
+
+.subform {
+  width: 100%;
+  background: #8F6B23;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #C99A39;
+  font-size: 18px;
+  color: white; }
+
+.button {
+  width: 100%;
+  color: #C99A39;
+  border: none;
+  padding: 12px;
+  font-size: 16px; }
+
+.textoContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center; }
+  .textoContent p {
+    max-width: 500px;
+    margin: 10px auto;
+    line-hight: 28px;
+    font-size: 18px; }
+
+.txt {
+  text-align: center;
+  transition: all 3s;
+  transform: scale(1.5);
+  opacity: 0; }
+  .txt:hover {
+    text-decoration: none !important;
+    color: #A69E90;
+    transform: scale(1);
+    opacity: 1;
+    border: none; }
+
+.cajaContenedora {
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly; }
+  .cajaContenedora .caja1 {
+    background-image: url("../assets/img/img1.png");
+    background-size: cover;
+    width: 20%;
+    height: 70%;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.5);
+    cursor: pointer; }
+    .cajaContenedora .caja1:hover {
+      box-shadow: 0px 2px 15px 10px; }
+    .cajaContenedora .caja1 a:hover, .cajaContenedora .caja1 a:visited, .cajaContenedora .caja1 a:link, .cajaContenedora .caja1 a:active {
+      text-decoration: none; }
+  .cajaContenedora .caja2 {
+    background-image: url("../assets/img/img2.png");
+    background-size: cover;
+    width: 20%;
+    height: 70%;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.5);
+    cursor: pointer; }
+    .cajaContenedora .caja2:hover {
+      box-shadow: 0px 2px 15px 10px; }
+    .cajaContenedora .caja2 a:hover, .cajaContenedora .caja2 a:visited, .cajaContenedora .caja2 a:link, .cajaContenedora .caja2 a:active {
+      text-decoration: none; }
+  .cajaContenedora .caja3 {
+    background-image: url(../assets/img/img3.png);
+    background-size: cover;
+    width: 20%;
+    height: 70%;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.5);
+    cursor: pointer; }
+    .cajaContenedora .caja3:hover {
+      box-shadow: 0px 2px 15px 10px; }
+    .cajaContenedora .caja3 a:hover, .cajaContenedora .caja3 a:visited, .cajaContenedora .caja3 a:link, .cajaContenedora .caja3 a:active {
+      text-decoration: none; }

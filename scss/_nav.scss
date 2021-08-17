@@ -1,0 +1,27 @@
+.nav{
+	list-style-type: none; /* saco bullets */
+	padding: 0;
+	background-color: #092327;
+	width: 90%;
+	margin: auto; /* para que quede centrado */
+	display: flex;
+	justify-content: flex-end;
+}
+
+.nav li a{
+	text-decoration: none; /* saco el subrayado */
+	color: white;
+	padding: 20px;
+	display: block;
+
+}
+
+.nav li{
+	display: inline-block;
+	text-align: center;
+
+}
+
+.nav li a:hover{ /* el hover sirve para cuando tocamos en alguno de los items tenga color distinto */
+	background: orange;
+}

@@ -1,0 +1,9 @@
+.paddingT{padding-top: 50px;}
+.paddingTB{padding-top: 30px; padding-bottom: 30px;}
+.paddingLR{padding-left: 10px; padding-right: 10px;}
+.centrar{text-align: center;}
+
+.col-lg-12,.col-lg-6,.col-lg-4,.col-lg-3{ /* poniendole cero hace que vaya hasta el borde de la pantalla */
+	padding-right: 0;
+	padding-left: 0;
+} 

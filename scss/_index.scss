@@ -1,0 +1,108 @@
+
+.textoContent{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+	
+
+	p{
+	max-width: 500px;
+	margin: 10px auto;
+	line-hight: 28px;
+	font-size: 18px;
+	
+
+	}
+}
+
+
+
+.txt{
+	text-align: center;
+	transition: all 3s;
+
+	transform: scale(1.5);
+	opacity: 0;
+
+	&:hover{
+	text-decoration: none !important;
+	color: #A69E90;
+	transform: scale(1);
+	opacity: 1;
+	border: none;
+	}
+
+}
+
+.cajaContenedora{
+	width: 100%;
+	height: 40vh;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	
+
+	.caja1{
+		background-image: url("../assets/img/img1.png");
+		background-size: cover;
+		width: 20%;
+		height: 70%;
+		border-radius: 4px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+		cursor: pointer;
+
+		&:hover{box-shadow: 0px 2px 15px 10px;}
+
+
+	a:hover, a:visited, a:link, a:active{
+    text-decoration: none;
+}		
+
+	}
+
+	.caja2{
+		background-image: url("../assets/img/img2.png");
+		background-size: cover;
+		width: 20%;
+		height: 70%;
+		border-radius: 4px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+		cursor: pointer;
+
+
+		&:hover{box-shadow: 0px 2px 15px 10px;}
+		
+		a:hover, a:visited, a:link, a:active{
+    text-decoration: none;
+}		
+	}
+
+	.caja3{
+		background-image: url(../assets/img/img3.png);
+		background-size: cover;
+		width: 20%;
+		height: 70%;
+		border-radius: 4px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+		cursor: pointer;
+
+
+		&:hover{box-shadow: 0px 2px 15px 10px;}
+
+		a:hover, a:visited, a:link, a:active{
+    text-decoration: none;
+}		
+	}
+}
+
