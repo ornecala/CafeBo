@@ -1,23 +1,23 @@
 /* vista desktop */
 @media only screen and (min-width: 1024px){
-	.navbar-expand-lg .navbar-collapse{justify-content: flex-end;}	
+	.navbar-expand-lg .navbar-collapse{justify-content: flex-end;}
 
-	/*map-get*/
-	$estilos: (
-		display: flex,
-		espacio: space-around
-	);
-
-	.footerFlex{
-		display: map-get($estilos,display);
-		justify-content: map-get($estilos,espacio);
+	.container-fluid{
+		overflow: hidden;
 	}
+	
+
+	
 	
 }
 
 /* vista tablet */
 @media only screen and (min-width: 768px) and (max-width: 1023px){
 	.navbar-expand-lg .navbar-collapse{justify-content: flex-end;}
+
+	.container-fluid{
+		overflow: hidden;
+	}
 
 
 	.indexGaleria__img--ubicacion{
@@ -37,7 +37,12 @@
 }
 
 /* vista mobile */
-@media only screen and (min-width:1px) and (max-width: 767px){
+@media only screen and (min-width:0px) and (max-width: 767px){
+
+	.container-fluid{
+		overflow: hidden;
+	}
+
 	
 	p,span,li{font-size: 18px;}
 	h1{font-size: 40px;}
