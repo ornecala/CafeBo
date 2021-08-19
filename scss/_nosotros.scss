@@ -1,1 +1,28 @@
 
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.titleN{
+	font-size: 40px;	
+}
+
+.containerAll{
+	width: 100%;
+	max-width: 1000px;
+	margin: auto;
+
+	p{
+	font-weight: 370;
+	}
+
+	img{
+	width: 450px;
+	margin-left: 50px;
+	}
+
+}
+
+
