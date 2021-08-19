@@ -148,6 +148,13 @@ footer img {
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .container-fluid {
     overflow: hidden; }
+  .navbar-brand img {
+    width: 60px;
+    height: 75px; }
+  .cajaContenedora {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto; }
   p, span, li {
     font-size: 18px; }
   h1 {
@@ -159,7 +166,9 @@ footer img {
   .indexGaleria__img--size {
     height: auto;
     min-width: 300px !important;
-    margin: 20px auto; } }
+    margin: 20px auto; }
+  .img-icon {
+    margin-top: 50px; } }
 
 * {
   margin: 0;
@@ -293,7 +302,8 @@ footer img {
     font-weight: 400; }
   .containerAll3 img {
     width: 450px;
-    margin-left: 50px; }
+    margin-left: 50px;
+    border-radius: 4px; }
 
 * {
   margin: 0;
@@ -311,12 +321,16 @@ footer img {
     font-weight: 370; }
   .containerAll img {
     width: 450px;
-    margin-left: 50px; }
+    margin-left: 50px;
+    border-radius: 4px; }
 
 .containerAll2 {
   width: 100%;
   max-width: 1000px;
   margin: auto; }
+
+.tituloA {
+  margin-bottom: 30px; }
 
 .subTitle {
   font-size: 30px;
@@ -337,7 +351,7 @@ footer img {
 
 .text-section {
   border-radius: 5px;
-  background-color: #A98B58;
+  background-color: #D4BA8E;
   padding: 20px; }
 
 .img-icon {

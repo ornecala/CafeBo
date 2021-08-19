@@ -43,6 +43,19 @@
 		overflow: hidden;
 	}
 
+
+
+	.navbar-brand img{
+	width: 60px;
+	height:75px;
+	}
+
+	.cajaContenedora{
+	width: 100%;
+	max-width: 1000px;
+	margin: auto;
+	}
+
 	
 	p,span,li{font-size: 18px;}
 	h1{font-size: 40px;}
@@ -58,6 +71,10 @@
 		min-width: 300px !important;
 		margin: 20px auto;
 		}
+
+	.img-icon{
+	margin-top: 50px;
+	}
 }
 
 
