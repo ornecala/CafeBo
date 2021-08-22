@@ -151,10 +151,12 @@ footer img {
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .container-fluid {
     overflow: hidden; }
-  .containerAll img {
-    width: 450px;
-    padding: 20px;
-    border-radius: 4px; }
+  .containerAll3 {
+    max-width: 1150px; }
+    .containerAll3 img {
+      width: 450px;
+      padding: 20px;
+      border-radius: 4px; }
   .containerAll3 img {
     width: 450px;
     padding: 20px;
@@ -303,7 +305,7 @@ footer img {
 
 .containerAll3 {
   width: 100%;
-  max-width: 1000px;
+  max-width: 1150px;
   margin: auto; }
   .containerAll3 li {
     font-weight: 370; }
