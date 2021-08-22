@@ -233,10 +233,19 @@ footer img {
   justify-content: center;
   flex-direction: column;
   text-align: center; }
+  .textoContent::after {
+    content: "";
+    display: block;
+    background-color: black;
+    top: 0;
+    left: 0;
+    height: 3px;
+    width: 600px;
+    border-radius: 100vw; }
   .textoContent p {
     max-width: 500px;
     margin: 10px auto;
-    line-hight: 28px;
+    line-height: 28px;
     font-size: 18px; }
 
 .txt {
