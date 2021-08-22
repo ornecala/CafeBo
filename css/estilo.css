@@ -153,6 +153,11 @@ footer img {
     overflow: hidden; }
   .containerAll img {
     width: 450px;
+    padding: 20px;
+    border-radius: 4px; }
+  .containerAll3 img {
+    width: 450px;
+    padding: 20px;
     border-radius: 4px; }
   .navbar-brand img {
     width: 60px;
