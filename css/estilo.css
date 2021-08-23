@@ -276,7 +276,8 @@ footer img {
     align-items: center;
     justify-content: center;
     box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.5);
-    cursor: pointer; }
+    cursor: pointer;
+    transition: 0.5s all ease; }
     .cajaContenedora .caja1:hover {
       box-shadow: 0px 2px 15px 10px; }
     .cajaContenedora .caja1 a:hover, .cajaContenedora .caja1 a:visited, .cajaContenedora .caja1 a:link, .cajaContenedora .caja1 a:active {
@@ -291,7 +292,8 @@ footer img {
     align-items: center;
     justify-content: center;
     box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.5);
-    cursor: pointer; }
+    cursor: pointer;
+    transition: 0.5s all ease; }
     .cajaContenedora .caja2:hover {
       box-shadow: 0px 2px 15px 10px; }
     .cajaContenedora .caja2 a:hover, .cajaContenedora .caja2 a:visited, .cajaContenedora .caja2 a:link, .cajaContenedora .caja2 a:active {
@@ -306,7 +308,8 @@ footer img {
     align-items: center;
     justify-content: center;
     box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.5);
-    cursor: pointer; }
+    cursor: pointer;
+    transition: 0.5s all ease; }
     .cajaContenedora .caja3:hover {
       box-shadow: 0px 2px 15px 10px; }
     .cajaContenedora .caja3 a:hover, .cajaContenedora .caja3 a:visited, .cajaContenedora .caja3 a:link, .cajaContenedora .caja3 a:active {
