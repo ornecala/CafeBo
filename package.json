@@ -11,8 +11,16 @@
   "license": "ISC",
   "devDependencies": {
     "node-sass": "^6.0.1",
-    "nodemon": "^2.0.12"
+    "nodemon": "^2.0.15"
   },
   "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ornecala/CafeBo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ornecala/CafeBo/issues"
+  },
+  "homepage": "https://github.com/ornecala/CafeBo#readme",
   "description": ""
 }
